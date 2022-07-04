@@ -11,6 +11,8 @@
 		7ED10EFF2872E28400123244 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED10EFE2872E28400123244 /* ContentView.swift */; };
 		7ED10F012872E28500123244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED10F002872E28500123244 /* Assets.xcassets */; };
 		7ED10F042872E28500123244 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED10F032872E28500123244 /* Preview Assets.xcassets */; };
+		7ED10F0D2872E52900123244 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ED10F0B2872E52800123244 /* tada.mp3 */; };
+		7ED10F0E2872E52900123244 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7ED10F0C2872E52800123244 /* badum.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7ED10EFE2872E28400123244 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7ED10F002872E28500123244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ED10F032872E28500123244 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7ED10F0B2872E52800123244 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		7ED10F0C2872E52800123244 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			children = (
 				7ED10EFC2872E28300123244 /* SoundEffectApp.swift */,
 				7ED10EFE2872E28400123244 /* ContentView.swift */,
+				7ED10F0A2872E50D00123244 /* Sounds */,
 				7ED10F002872E28500123244 /* Assets.xcassets */,
 				7ED10F022872E28500123244 /* Preview Content */,
 			);
@@ -65,6 +70,15 @@
 				7ED10F032872E28500123244 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7ED10F0A2872E50D00123244 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7ED10F0C2872E52800123244 /* badum.mp3 */,
+				7ED10F0B2872E52800123244 /* tada.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +139,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED10F0E2872E52900123244 /* badum.mp3 in Resources */,
 				7ED10F042872E28500123244 /* Preview Assets.xcassets in Resources */,
 				7ED10F012872E28500123244 /* Assets.xcassets in Resources */,
+				7ED10F0D2872E52900123244 /* tada.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
